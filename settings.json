@@ -180,6 +180,9 @@
       "command": "clangd",
       "url": "https://github.com/clangd/clangd",
       "description": "clangd language server",
+      "config": {
+        "refresh_pattern": "\\([a-zA-Z0-9_:]\\+\\)$"
+      },
       "requires": []
     }
   ],
